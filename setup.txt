@@ -1,0 +1,19 @@
+Project Set up instructions for node app on the local machine.
+1. Install the latest version of node.js and npm
+2. Install the latest version of mysql
+3. Create a database name like "successive"
+4. Unzip both attached folder at any place of your choice.
+5. move into "successive_api" folder and open ".env" file in any text editor
+6. Modify the ".env" file according to your database setup at the local machine.
+7. Modify the ".env" file to "PORT" on which you want to run node application.
+8. Through the "Terminal or command prompt" go to the path of "successive_api" folder at your local machine and run following commands
+npm install
+npm start
+9. The server would start at the provided port.
+
+Instruction to use api client
+1. Move into the folder "successive_client"
+2. Open the index.js file in any text editor and update "url" value to your node app
+3. Open the index.html file in any browser and start to use it.
+
+

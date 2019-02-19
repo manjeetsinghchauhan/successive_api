@@ -1,0 +1,30 @@
+{
+  "name": "successive_test",
+  "version": "1.0.0",
+  "description": "REST api demo with spa",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "author": "Manjeet Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "node-env-file": "^0.1.8",
+    "path": "^0.12.7",
+    "sequelize": "^4.42.0",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
